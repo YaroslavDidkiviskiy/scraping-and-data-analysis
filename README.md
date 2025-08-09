@@ -1,7 +1,5 @@
 # DOU Python Job Market Analysis
 
-![Python Technologies in Job Market](charts/top_tech.png)
-
 This project analyzes Python-related job vacancies from DOU.ua to identify the most in-demand technologies in the Ukrainian job market.
 
 ## Features
@@ -102,4 +100,5 @@ Kubernetes	5
 REST	5
 Contributing
 Contributions are welcome! Please open an issue to discuss your ideas before submitting a pull request.
+
 
