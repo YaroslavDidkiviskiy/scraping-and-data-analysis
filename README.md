@@ -25,10 +25,12 @@ This project analyzes Python-related job vacancies from DOU.ua to identify the m
 git clone https://github.com/YaroslavDidkiviskiy/scraping-and-data-analysis.git
 cd scraping-and-data-analysis
 pip install -r requirements.txt
+```
+
 Usage
 Run the main analysis pipeline:
 
-bash
+```bash
 python main.py
 Customize search parameters (in config.py):
 
@@ -51,13 +53,20 @@ TECH_KEYWORDS = [
     "pandas", "numpy", "scikit-learn", "PyTorch", "TensorFlow",
     "RabbitMQ", "Celery", "REST", "GraphQL"
 ]
+```
 View results:
 
+
 Raw job data: data/dou_python_raw.json
+<img width="1084" height="883" alt="image" src="https://github.com/user-attachments/assets/d69b528d-b549-4089-bf7c-2dfa048e4a49" />
+
 
 Technology analysis: console output
 
+
 Visualization: charts/top_tech.png
+<img width="882" height="666" alt="image" src="https://github.com/user-attachments/assets/f2a31b7a-859e-46c6-a070-e62e9cf5f6fc" />
+
 
 Project Structure
 text
@@ -88,3 +97,9 @@ Kubernetes	5
 REST	5
 Contributing
 Contributions are welcome! Please open an issue to discuss your ideas before submitting a pull request.
+Django	5
+Kubernetes	5
+REST	5
+Contributing
+Contributions are welcome! Please open an issue to discuss your ideas before submitting a pull request.
+
