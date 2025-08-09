@@ -1,29 +1,27 @@
-DOU Python Job Market Analysis
+# DOU Python Job Market Analysis
+
+![Python Technologies in Job Market](charts/top_tech.png)
 
 This project analyzes Python-related job vacancies from DOU.ua to identify the most in-demand technologies in the Ukrainian job market.
 
-Features
-Web Scraping: Asynchronously collects Python job listings from DOU.ua
+## Features
 
-Technology Analysis: Identifies and counts mentions of key technologies
+- **Web Scraping**: Asynchronously collects Python job listings from DOU.ua
+- **Technology Analysis**: Identifies and counts mentions of key technologies
+- **Data Visualization**: Generates visual reports of top technologies
+- **Customizable**: Easily modify search parameters and technology keywords
 
-Data Visualization: Generates visual reports of top technologies
+## Requirements
 
-Customizable: Easily modify search parameters and technology keywords
+- Python 3.8+
+- aiohttp
+- beautifulsoup4
+- pandas
+- matplotlib
 
-Requirements
-Python 3.8+
+## Installation
 
-aiohttp
-
-beautifulsoup4
-
-pandas
-
-matplotlib
-
-Installation
-bash
+```bash
 git clone https://github.com/YaroslavDidkiviskiy/scraping-and-data-analysis.git
 cd scraping-and-data-analysis
 pip install -r requirements.txt
@@ -88,6 +86,5 @@ GCP	6
 Django	5
 Kubernetes	5
 REST	5
-
 Contributing
 Contributions are welcome! Please open an issue to discuss your ideas before submitting a pull request.
